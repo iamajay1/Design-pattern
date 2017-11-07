@@ -1,0 +1,137 @@
+  
+    @media (min-width: 768px){
+    
+    section{
+      overflow-x: hidden;
+      height: 500px;
+   }
+  slide{
+    background-color: #333;
+    width:23%;
+    height: 500px;
+    position: fixed;
+   transform: translateX(-100%);
+  } 
+ #btn:checked + slide{
+    transform: translateX(0%);
+  }
+  #btn:checked~ #content{
+    transform: translateX(25%);
+  }
+  slide,#content{
+    transition: transform 0.5s ease-out;
+  }
+  
+ 
+  slide, .ul1,.li1{
+    display: block;
+    color: white;
+    list-style: none;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .li1{
+    border-bottom: 1px solid #555;
+  }
+  a{
+    color: #FFF;
+    text-decoration:none;
+  }
+
+  #btn{
+    display: none;
+  }    
+  }
+  @media (min-width: 480px) and (max-width: 767px){
+   section{
+      height:600px;
+    }
+    slide{
+    background-color: #333;
+    width:35%;
+    height: 600px;
+    position: fixed;
+   transform: translateX(-100%);
+  }
+   #btn:checked + slide{
+    transform: translateX(0%);
+  }
+  #btn:checked~ #content{
+    transform: translateX(37%);
+  }
+  slide,#content{
+    transition: transform 0.5s ease-out;
+  }
+  
+ 
+  slide, .ul1,.li1{
+    display: block;
+    color: white;
+    list-style: none;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  .li1{
+    border-bottom: 1px solid #555;
+  }
+  a{
+    color: #FFF;
+    text-decoration:none;
+  }
+
+  #btn{
+    display: none;
+  }    
+    
+  }
+  @media (max-width: 480px){
+   section{
+      height:600px;
+      
+    }
+     slide{
+    background-color: #333;
+    width:50%;
+    height: 600px;
+    position: fixed;
+   transform: translateX(-100%);
+  } 
+ #btn:checked + slide{
+    transform: translateX(0%);
+  }
+  #btn:checked~ #content{
+    transform: translateX(52%);
+  }
+  slide,#content{
+    transition: transform 0.5s ease-out;
+  }
+  
+ 
+  slide, .ul1,.li1{
+    display: block;
+    color: white;
+    list-style: none;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+  }
+  .li1{
+    border-bottom: 1px solid #555;
+  }
+  a{
+    color: #FFF;
+    text-decoration:none;
+  }
+
+  #btn{
+    display: none;
+  }    
+  
+  }
+
+ 
